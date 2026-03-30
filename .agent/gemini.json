@@ -1,0 +1,33 @@
+{
+  "project": "AI Training Curriculum Generator",
+  "version": "1.0",
+  "author": "Antigravity",
+  "workflows": [
+    {
+      "id": "e-plan",
+      "name": "The Orchestrator",
+      "description": "Validasi lingkungan dan pembuatan blueprint proyek."
+    },
+    {
+      "id": "e-curriculum",
+      "name": "The Architect",
+      "description": "Ekstraksi data dari MCP menjadi struktur kurikulum."
+    },
+    {
+      "id": "e-slide",
+      "name": "The Storyteller",
+      "description": "Generasi slide per sesi secara granular."
+    },
+    {
+      "id": "e-activity",
+      "name": "The Facilitator",
+      "description": "Membuat latihan berbasis Bloom’s Taxonomy."
+    }
+  ],
+  "constraints": {
+    "language": "Bahasa Indonesia",
+    "slide_format": "Marp (Markdown)",
+    "pedagogy": "Bloom's Taxonomy (C1-C6)",
+    "source_truth": "notebooklm-mcp"
+  }
+}

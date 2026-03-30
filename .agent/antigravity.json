@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "name": "Antigravity",
+    "origin": "Google DeepMind - Advanced Agentic Coding",
+    "role": "Lead Architect & Orchestrator",
+    "capabilities": [
+      "Multi-step workflow execution",
+      "Pedagogical content generation",
+      "Source-grounded research (NotebookLM)",
+      "Automated file structure management"
+    ]
+  },
+  "project_context": {
+    "title": "AI Training Material Generator",
+    "frameworks": ["Google AI for K12", "Bloom's Taxonomy", "PARTS/RACE/APE"],
+    "primary_workflows": ["/e-plan", "/e-curriculum", "/e-slide", "/e-activity"]
+  },
+  "runtime_settings": {
+    "default_language": "id-ID",
+    "strict_source_grounding": true,
+    "output_format": "markdown"
+  }
+}
